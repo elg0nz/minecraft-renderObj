@@ -219,13 +219,23 @@ if __name__ == "__main__":
     #vertices,textures,normals,faces = load_obj("cessna.obj")
 
     # New York
+    #COORDSSCALE = 0.1
+    #STARTCOORD = minecraft.Vec3(-185, 0, 135)
+    #CLEARAREA1 = minecraft.Vec3(-130, 0, -130)
+    #CLEARAREA2 = minecraft.Vec3(130, 65, 130)
+    #BLOCKTYPE = block.IRON_BLOCK
+    #SWAPYZ = False
+    #vertices,textures,normals,faces = load_obj("NY_LIL.obj")
+
+    # SF Moma
+    # TODO: Create a menu for selecting these models. hardcoding stuff is not cool.
     COORDSSCALE = 0.1
     STARTCOORD = minecraft.Vec3(-185, 0, 135)
     CLEARAREA1 = minecraft.Vec3(-130, 0, -130)
     CLEARAREA2 = minecraft.Vec3(130, 65, 130)
     BLOCKTYPE = block.IRON_BLOCK
     SWAPYZ = False
-    vertices,textures,normals,faces = load_obj("NY_LIL.obj")
+    vertices,textures,normals,faces = load_obj("SF_MOMA.obj")
 
     print "obj file loaded"
     
